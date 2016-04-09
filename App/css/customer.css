@@ -1,11 +1,12 @@
-/*.row{
-    background-color: rgba(200, 200, 200, 0.3);
-}*/
+/*background-color: #0A4E4D; verde oscuro*/
+/*background-color: #b1ad27; verde claro*/
+/*background-color: #bbe0de; azul claro*/
+/*background-color: #9a5c28; marrón*/
+
 .show-grid [class^="col-"] {
     /*padding-top: 10px;
     padding-bottom: 10px;*/
     /*border: 1px solid #AAA;*/
-    /*background-color: #ffffff;*/
 }
 
 /* GENERICAS */
@@ -21,6 +22,9 @@
     margin-top: 28px;
 }
 
+/************************
+        Header
+*************************/
 header{
     height: auto;
     width: auto;
@@ -29,20 +33,48 @@ header{
 .logo{
     height: 100px;
 }
-.logoImg{
+.logo .logoImg{
     height: 100px;
     background-image: url("../img/logo.jpg");
     background-size: 100px 97px;
     background-repeat: no-repeat;
     background-position: center center;
 }
-.logoImg span{
+.logo .logoImg span{
     display: none;
+}
+.logo h2.logoText{
+    font-size: 32px;
+}
+.mainOptionsUser{
+    margin-top: 5px;
+    background-color: rgba(10,78,77, 0.8);
+}
+.mainOptionsUser .search .inputSearch, .mainOptionsUser .search span{
+    border: 0px;
+}
+.mainOptionsUser .search{
+    color: #ffffff;
+    margin-left: 50px;
+}
+.mainOptionsUser .search .inputSearch, .mainOptionsUser .search .btn-default{
+    height: 45px;
+    background-color: rgba(0,0,0,0.3);
+    color: #ffffff;
+    border: 0px;
+    border-radius: 0px;
+}
+.mainOptionsUser .search .btn-default{
+    border: 0px;
+}
+.mainOptionsUser .search .glyphicon-search{
+    font-size: 18px;
 }
 .mainOptionsUser .userDropdownMenu{
     width: 315px;
     padding: 0px;
     margin-right: -10px;
+    background-color: transparent;
 }
 .mainOptionsUser .userDropdownMenu .iconMenu .icon{
     width: 56px;
@@ -61,6 +93,10 @@ header{
 }
 .icon-book, .icon-alarm{
 }
+.mainOptionsUser .userDropdownMenu .btn-default, .mainOptionsUser .userDropdownMenu .btn-group{
+    border: 0px;
+    background-color: transparent;
+}
 .mainOptionsUser .iconMenu .dropdown-toggle{
     width: 203px;
     text-align: right;
@@ -75,17 +111,30 @@ header{
     margin-right: 8px;
 }
 
+
+
+
 /************************
         Menu Nav
 *************************/
 .mainMenuNav{
-    margin: 50px auto;
+    margin-top: 58px;
+    padding-left: 50px;
 }
+.mainMenuNav .nav-pills>li>a{
+    font-size: 14px;
+    border-radius: 0px;
+}
+
+
 
 /************************
         Content
 *************************/
 .bookStand{
+    margin-top: 30px;
+}
+.bookListStand{
     height: 860px;
     background-image: url("../img/book_stand.png");
     background-repeat: no-repeat;
