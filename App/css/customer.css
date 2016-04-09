@@ -1,0 +1,95 @@
+/*.row{
+    background-color: rgba(200, 200, 200, 0.3);
+}*/
+.show-grid [class^="col-"] {
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+    /*border: 1px solid #AAA;*/
+    /*background-color: #ffffff;*/
+}
+
+/* GENERICAS */
+.paddingNone{
+    padding: 0px;
+}
+.marginNone{
+    margin: 0px;
+}
+
+
+.container-fluid{
+    margin-top: 28px;
+}
+
+header{
+    height: auto;
+    width: auto;
+    margin-bottom: 30px;
+}
+.logo{
+    height: 100px;
+}
+.logoImg{
+    height: 100px;
+    background-image: url("../img/logo.jpg");
+    background-size: 100px 97px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.logoImg span{
+    display: none;
+}
+.mainOptionsUser .userDropdownMenu{
+    width: 315px;
+    padding: 0px;
+    margin-right: -10px;
+}
+.mainOptionsUser .userDropdownMenu .iconMenu .icon{
+    width: 56px;
+    height: 45px;
+    padding: 10px;
+    font-size: 19px;
+    vertical-align: center;
+}
+.mainOptionsUser .userDropdownMenu .iconMenu .icon .badge{
+    position: absolute;
+    top: 3px;
+    right: 32px;
+    padding: 3px 5px;
+    color: #ffffff;
+    font-weight: normal;
+}
+.icon-book, .icon-alarm{
+}
+.mainOptionsUser .iconMenu .dropdown-toggle{
+    width: 203px;
+    text-align: right;
+    height: 45px;
+}
+.mainOptionsUser .userDropdownMenu .dropdown-menu{
+    top: 96%;
+    left: 45px;
+}
+.mainOptionsUser .userDropdownMenu .dropdown-menu .fa-user, .mainOptionsUser .userDropdownMenu .dropdown-menu .fa-power-off{
+    margin-left: -6px;
+    margin-right: 8px;
+}
+
+/************************
+        Menu Nav
+*************************/
+.mainMenuNav{
+    margin: 50px auto;
+}
+
+/************************
+        Content
+*************************/
+.bookStand{
+    height: 860px;
+    background-image: url("../img/book_stand.png");
+    background-repeat: no-repeat;
+    /*background-size: 900px 825px;*/
+    background-position: center center;
+}
+

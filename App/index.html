@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BREMS</title>
+
+    <!-- Boostrap Library -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" ></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+    <link href="css/customer.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container-fluid">
+
+        <!-- // header: logo and main options of user-->
+        <header class="row show-grid">
+            <div class="col-lg-12">
+
+                <!-- // LOGO & MAIN MENU !-->
+                <div class="row show-grid">
+                    <!-- // logo -->
+                    <div class="col-lg-4 col-lg-offset-1">
+                        <div class="row show-grid logo">
+                            <div class="col-lg-3 logoImg"><span>Logo BREMS</span></div>
+                            <div class="col-lg-9 logoText">
+                                Book Reserve System Management
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- // main menu -->
+                    <nav class="col-lg-7 mainMenuNav">
+                        <ul class="nav nav-pills">
+                            <li role="presentation" class="active"><a href="#">Home</a></li>
+                            <li role="presentation"><a href="#">Profile</a></li>
+                            <li role="presentation"><a href="#">Messages</a></li>
+                            <li role="presentation"><a href="#">Contact Us</a></li>
+                            <li role="presentation"><a href="#">About</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+                <!-- // main options of user -->
+                <div class="row show-grid">
+                    <div class="col-lg-6"></div>
+
+                    <div class="col-lg-6">
+                        <div class="row show-grid mainOptionsUser">
+                            <!-- // search -->
+                            <div class="col-lg-3 search paddingNone">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Buscar...">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button">
+                                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!-- // buttons -->
+                            <div class="col-lg-5 col-lg-offset-4 userDropdownMenu">
+                                <div class="btn-group iconMenu" role="group" aria-label="...">
+                                    <!-- // icon alarm -->
+                                    <button type="button" class="btn btn-default icon icon-alarm">
+                                        <i class="fa fa-bell"></i><span class="badge">4</span>
+                                    </button>
+                                    <!-- // icon book -->
+                                    <button type="button" class="btn btn-default icon icon-book">
+                                        <i class="fa fa-book"></i><span class="badge">2</span>
+                                    </button>
+
+                                    <div class="btn-group" role="group">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Bienvenido, Anny
+                                            <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#"> <i class="fa fa-user"></i>Mi perfil</a> </li>
+                                            <li><a href="#"> <i class="fa fa-power-off"></i>Cerrar sesi&oacute;n</a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- // button sig in
+                            <div class="col-lg-3">
+                                <i class="fa fa-power-off"></i>
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Content -->
+        <div class="row show-grid contentMain">
+            <div class="col-lg-12">
+                <ul class="nav nav-tabs">
+                    <li role="presentation" class="active"><a href="#">Libros</a></li>
+                    <li role="presentation"><a href="#">Revistas</a></li>
+                    <li role="presentation"><a href="#">Toda la estantería</a></li>
+                </ul>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="bookStand">
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="row show-grid">
+            <div class="col-lg-12">
+                Footer
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
