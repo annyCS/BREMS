@@ -6,10 +6,14 @@
 .show-grid [class^="col-"] {
     /*padding-top: 10px;
     padding-bottom: 10px;*/
-    /*border: 1px solid #AAA;*/
+    border: 1px solid #AAA;
 }
 
 /* GENERICAS */
+body{
+    background-color: #faf9f9;
+    color: #3b3a3b;
+}
 .paddingNone{
     padding: 0px;
 }
@@ -32,98 +36,135 @@ header{
 }
 .logo{
     height: 100px;
+    margin-left: 40px;
 }
 .logo .logoImg{
-    height: 100px;
-    background-image: url("../img/logo.jpg");
-    background-size: 100px 97px;
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 56px;
+    background-image: url("../img/logo.png");
+    background-size: 63px;
     background-repeat: no-repeat;
     background-position: center center;
+    border-right: 1px solid #3b3a3b;
 }
 .logo .logoImg span{
     display: none;
 }
-.logo h2.logoText{
-    font-size: 32px;
+.logo .logoText{
+    padding-left: 0px;
 }
-.mainOptionsUser{
-    margin-top: 5px;
-    background-color: rgba(10,78,77, 0.8);
+.logo .logoText h2{
+    font-size: 28px;
+    color: #3b3a3b;
 }
-.mainOptionsUser .search .inputSearch, .mainOptionsUser .search span{
-    border: 0px;
-}
-.mainOptionsUser .search{
-    color: #ffffff;
-    margin-left: 50px;
-}
-.mainOptionsUser .search .inputSearch, .mainOptionsUser .search .btn-default{
-    height: 45px;
-    background-color: rgba(0,0,0,0.3);
-    color: #ffffff;
-    border: 0px;
-    border-radius: 0px;
-}
-.mainOptionsUser .search .btn-default{
-    border: 0px;
-}
-.mainOptionsUser .search .glyphicon-search{
-    font-size: 18px;
-}
-.mainOptionsUser .userDropdownMenu{
-    width: 315px;
-    padding: 0px;
-    margin-right: -10px;
-    background-color: transparent;
-}
-.mainOptionsUser .userDropdownMenu .iconMenu .icon{
-    width: 56px;
-    height: 45px;
-    padding: 10px;
-    font-size: 19px;
-    vertical-align: center;
-}
-.mainOptionsUser .userDropdownMenu .iconMenu .icon .badge{
-    position: absolute;
-    top: 3px;
-    right: 32px;
-    padding: 3px 5px;
-    color: #ffffff;
-    font-weight: normal;
-}
-.icon-book, .icon-alarm{
-}
-.mainOptionsUser .userDropdownMenu .btn-default, .mainOptionsUser .userDropdownMenu .btn-group{
-    border: 0px;
-    background-color: transparent;
-}
-.mainOptionsUser .iconMenu .dropdown-toggle{
-    width: 203px;
-    text-align: right;
-    height: 45px;
-}
-.mainOptionsUser .userDropdownMenu .dropdown-menu{
-    top: 96%;
-    left: 45px;
-}
-.mainOptionsUser .userDropdownMenu .dropdown-menu .fa-user, .mainOptionsUser .userDropdownMenu .dropdown-menu .fa-power-off{
-    margin-left: -6px;
-    margin-right: 8px;
-}
-
-
-
-
 /************************
         Menu Nav
 *************************/
 .mainMenuNav{
     margin-top: 58px;
     padding-left: 50px;
+    text-transform: uppercase;
 }
-.mainMenuNav .nav-pills>li>a{
-    font-size: 14px;
+.mainMenuNav .nav li{
+
+}
+.mainMenuNav .nav-pills li a, .mainMenuNav .nav-pills li.active a{
+    font-size: 16px;
     border-radius: 0px;
+    color: #3b3a3b;
+    padding: 5px 12px;
+}
+.mainMenuNav .nav-pills li.active a, .mainMenuNav .nav-pills li.active a:hover,
+.mainMenuNav .nav-pills li.active a:focus, .mainMenuNav .nav-pills li a:hover, .mainMenuNav .nav-pills li a:focus{
+    border-bottom: 2px solid #b1ad27;
+    background-color: transparent;
+}
+
+/************************
+        Sub Header
+*************************/
+.mainOptionsUser{
+    margin-top: 5px;
+    height: 50px;
+    background-color: rgba(10,78,77, 0.9);
+}
+.mainOptionsUser .search .input-group{
+    height: 35px;
+    margin-top: 8px;
+}
+.mainOptionsUser .search{
+    color: #ffffff;
+    margin-left: 50px;
+}
+.mainOptionsUser .search .inputSearch, .mainOptionsUser .search .btn-default {
+    height: 35px;
+    background-color: rgba(0,0,0,0.3);
+    color: #ffffff;
+    border: 0px;
+    border-radius: 0px;
+}
+.mainOptionsUser .search .glyphicon-search {
+    font-size: 18px;
+}
+.mainOptionsUser .userDropdownMenu {
+    width: 340px;
+    background-color: transparent;
+    padding-left: 25px;
+}
+.mainOptionsUser .userDropdownMenu .iconMenu .icon, .mainOptionsUser .userDropdownMenu .iconMenu .dropdown-toggle {
+    height: 50px;
+    border-radius: 0px;
+}
+.mainOptionsUser .userDropdownMenu .iconMenu .icon {
+    width: 56px;
+    padding: 13px;
+    font-size: 19px;
+    vertical-align: center;
+}
+.mainOptionsUser .userDropdownMenu button:hover, .mainOptionsUser .userDropdownMenu button:active:hover {
+    background-color: #d4d4d4;
+}
+.mainOptionsUser .userDropdownMenu .iconMenu .icon-alarm, .mainOptionsUser .userDropdownMenu .iconMenu .icon-book,
+.mainOptionsUser .userDropdownMenu .iconMenu .icon-alarm.active, .mainOptionsUser .userDropdownMenu .iconMenu .icon-book.active {
+    color: #faf9f9;
+}
+.mainOptionsUser .userDropdownMenu .iconMenu .icon .badge{
+    position: absolute;
+    top: 3px;
+    right: 35px;
+    padding: 3px 5px;
+    color: #faf9f9;
+    font-weight: normal;
+}
+.mainOptionsUser .userDropdownMenu .iconMenu .icon-alarm .badgeAlarm{
+    background-color: #CA1515;
+}
+.mainOptionsUser .userDropdownMenu .iconMenu .icon-book .badgeBook{
+    background-color: #9a5c28;
+}
+.mainOptionsUser .userDropdownMenu .btn-default, .mainOptionsUser .userDropdownMenu .btn-group{
+    border: 0px;
+    background-color: transparent;
+}
+.mainOptionsUser .userDropdownMenu .iconMenu .dropdown-toggle{
+    width: 203px;
+    text-align: right;
+    color: #faf9f9;
+}
+.mainOptionsUser .userDropdownMenu .iconMenu .dropdown-toggle .img-circle{
+    margin-top: -3px;
+    margin-right: 6px;
+}
+.mainOptionsUser .userDropdownMenu .dropdown-menu{
+    top: 97%;
+    left: 44px;
+    border-radius: 0px;
+}
+.mainOptionsUser .userDropdownMenu .dropdown-menu .fa-user,
+.mainOptionsUser .userDropdownMenu .dropdown-menu .fa-power-off {
+    margin-left: -6px;
+    margin-right: 8px;
 }
 
 
@@ -131,10 +172,16 @@ header{
 /************************
         Content
 *************************/
-.bookStand{
+.contentMain {
+    margin-left: 40px;
+}
+.contentMain .nav-tabs {
+    font-size: 16px;
+}
+.contentMain .bookStand {
     margin-top: 30px;
 }
-.bookListStand{
+.contentMain .bookListStand {
     height: 860px;
     background-image: url("../img/book_stand.png");
     background-repeat: no-repeat;

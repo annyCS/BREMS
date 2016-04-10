@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
-    <link href="css/customer.css" rel="stylesheet" />
+    <link type="text/css" href="css/customer.css" rel="stylesheet" />
 </head>
 <body>
 
@@ -24,11 +24,11 @@
                 <!-- // LOGO & MAIN MENU !-->
                 <div class="row show-grid">
                     <!-- // logo -->
-                    <div class="col-lg-4 col-lg-offset-1">
+                    <div class="col-lg-5">
                         <div class="row show-grid logo">
-                            <div class="col-lg-3 logoImg"><span>Logo BREMS</span></div>
-                            <div class="col-lg-9">
-                                <h2 class="logoText">Book Reserve System Management</h2>
+                            <div class="col-lg-2 logoImg"><span>Logo BREMS</span></div>
+                            <div class="col-lg-9 logoText">
+                                <h2>Book Reserve System Management</h2>
                             </div>
                         </div>
                     </div>
@@ -38,8 +38,8 @@
                         <ul class="nav nav-pills">
                             <li role="presentation" class="active"><a href="#">Home</a></li>
                             <li role="presentation"><a href="#">Profile</a></li>
-                            <li role="presentation"><a href="#">Messages</a></li>
-                            <li role="presentation"><a href="#">Contact Us</a></li>
+                            <li role="presentation"><a href="#">Contact</a></li>
+                            <li role="presentation"><a href="#">Services</a></li>
                             <li role="presentation"><a href="#">About</a></li>
                         </ul>
                     </nav>
@@ -65,20 +65,21 @@
                             </div>
 
                             <!-- // buttons -->
-                            <div class="col-lg-4 col-lg-offset-2 userDropdownMenu">
+                            <div class="col-lg-4 col-lg-offset-2 paddingNone userDropdownMenu">
                                 <div class="btn-group iconMenu" role="group" aria-label="...">
                                     <!-- // icon alarm -->
                                     <button type="button" class="btn btn-default icon icon-alarm">
-                                        <i class="fa fa-bell"></i><span class="badge">4</span>
+                                        <i class="fa fa-bell"></i><span class="badge badgeAlarm">4</span>
                                     </button>
                                     <!-- // icon book -->
                                     <button type="button" class="btn btn-default icon icon-book">
-                                        <i class="fa fa-book"></i><span class="badge">2</span>
+                                        <i class="fa fa-book"></i><span class="badge badgeBook">2</span>
                                     </button>
 
                                     <div class="btn-group" role="group">
                                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Bienvenido, Anny
+                                            <img src="resources/imageUser/user_undefined_40x40.jpg" class="img-circle"/>
+                                            <span>Bienvenido, Anny</span>
                                             <span class="caret"></span>
                                         </button>
                                         <ul class="dropdown-menu">
@@ -101,7 +102,7 @@
 
         <!-- Content -->
         <div class="row show-grid contentMain">
-            <div class="col-lg-12">
+            <div class="col-md-12">
                 <ul class="nav nav-tabs">
                     <li role="presentation" class="active"><a href="#">Libros</a></li>
                     <li role="presentation"><a href="#">Revistas</a></li>
@@ -109,15 +110,15 @@
                 </ul>
 
                 <div class="row bookStand">
-                    <div class="col-lg-4">
+                    <div class="col-md-4">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="bookListStand">
+                    <div class="col-md-4">
+                        <!--<div class="bookListStand">
 
-                        </div>
+                        </div>-->
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-md-4">
                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                     </div>
                 </div>
