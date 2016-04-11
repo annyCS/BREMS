@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b468cf4-970f-4e3c-af2c-8c7da908b0b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/img/logo.jpg" afterPath="$PROJECT_DIR$/App/img/logo.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/img/logo.png" afterPath="$PROJECT_DIR$/App/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Anny.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Anny.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/css/customer.css" afterPath="$PROJECT_DIR$/App/css/customer.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/index.html" afterPath="$PROJECT_DIR$/App/index.html" />
@@ -28,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70071685">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state vertical-scroll-proportion="-2.6153846">
+              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customer.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="customer.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/css/customer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.909091">
-              <caret line="178" column="20" selection-start-line="178" selection-start-column="20" selection-end-line="178" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.30812854">
+              <caret line="71" column="58" selection-start-line="71" selection-start-column="58" selection-end-line="71" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -225,7 +222,13 @@
       <option name="project" value="LOCAL" />
       <updated>1460243665436</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new redistribution header with option menu">
+      <created>1460332736979</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1460332736979</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -264,7 +267,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add index&#10;// TODO - content &amp; footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add index&#10;// TODO - content &amp; footer" />
+    <MESSAGE value="new redistribution header with option menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="new redistribution header with option menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -358,18 +362,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/css/customer.css">
+    <entry file="file://$PROJECT_DIR$/App/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.909091">
-          <caret line="178" column="20" selection-start-line="178" selection-start-column="20" selection-end-line="178" selection-end-column="20" />
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/index.html">
+    <entry file="file://$PROJECT_DIR$/App/css/customer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70071685">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.30812854">
+          <caret line="71" column="58" selection-start-line="71" selection-start-column="58" selection-end-line="71" selection-end-column="58" />
           <folding />
         </state>
       </provider>

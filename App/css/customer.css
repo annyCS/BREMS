@@ -36,7 +36,7 @@ header{
 }
 .logo{
     height: 100px;
-    margin-left: 40px;
+    margin-left: 41px;
 }
 .logo .logoImg{
     margin-top: 20px;
@@ -63,7 +63,7 @@ header{
 *************************/
 .mainMenuNav{
     margin-top: 58px;
-    padding-left: 50px;
+    padding-left: 70px;
     text-transform: uppercase;
 }
 .mainMenuNav .nav li{
@@ -89,13 +89,13 @@ header{
     height: 50px;
     background-color: rgba(10,78,77, 0.9);
 }
+.mainOptionsUser .search{
+    color: #ffffff;
+    margin-left: 68px;
+}
 .mainOptionsUser .search .input-group{
     height: 35px;
     margin-top: 8px;
-}
-.mainOptionsUser .search{
-    color: #ffffff;
-    margin-left: 50px;
 }
 .mainOptionsUser .search .inputSearch, .mainOptionsUser .search .btn-default {
     height: 35px;
