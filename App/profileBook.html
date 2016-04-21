@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BREMS</title>
+
+    <!-- Boostrap Library -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" ></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+    <link type="text/css" href="css/main-style.css" rel="stylesheet" />
+    <link type="text/css" href="css/common-style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid">
+
+        <!-- // header: logo and main options of user-->
+        <header class="row">
+            <div class="col-lg-12">
+
+                <!-- // LOGO & MAIN MENU !-->
+                <div class="row">
+                    <!-- // logo -->
+                    <div class="col-lg-5">
+                        <div class="row logo">
+                            <div class="col-lg-2 logoImg"><span>Logo BREMS</span></div>
+                            <div class="col-lg-9 logoText">
+                                <h2>Book Reserve System Management</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- // main menu -->
+                    <nav class="col-lg-7 mainMenuNav">
+                        <ul class="nav nav-pills">
+                            <li role="presentation" class="active"><a href="#">Home</a></li>
+                            <li role="presentation"><a href="#">Profile</a></li>
+                            <li role="presentation"><a href="#">Contact</a></li>
+                            <li role="presentation"><a href="#">Services</a></li>
+                            <li role="presentation"><a href="#">About</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+                <!-- // main options of user -->
+                <div class="row mainOptionsUser">
+                    <!-- // search -->
+                    <div class="col-lg-5">
+                        <div class="row">
+                            <div class="col-lg-6 search paddingNone">
+                                <div class="input-group">
+                                    <input type="text" class="form-control inputSearch" placeholder="Buscar aquí..." />
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button">
+                                                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                            </button>
+                                        </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- // buttons -->
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-lg-4 col-lg-offset-6 paddingNone userDropdownMenu">
+                                <div class="btn-group iconMenu" role="group" aria-label="...">
+                                    <!-- // icon alarm -->
+                                    <button type="button" class="btn btn-default icon icon-alarm">
+                                        <i class="fa fa-bell"></i><span class="badge badgeAlarm">4</span>
+                                    </button>
+                                    <!-- // icon book -->
+                                    <button type="button" class="btn btn-default icon icon-book">
+                                        <i class="fa fa-book"></i><span class="badge badgeBook">2</span>
+                                    </button>
+
+                                    <div class="btn-group" role="group">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <img src="resources/avatars/user_undefined_40x40.jpg" class="img-circle"/>
+                                            <span>Bienvenido, Anny</span>
+                                            <span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#"> <i class="fa fa-user"></i>Mi perfil</a> </li>
+                                            <li><a href="#"> <i class="fa fa-power-off"></i>Cerrar sesi&oacute;n</a> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- // button sig in
+                            <div class="col-lg-3">
+                                <i class="fa fa-power-off"></i>
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Content -->
+        <div class="row contentMain">
+            <div class="col-lg-12">
+
+                <!-- // breadcrumb -->
+                <div class="row show-grid">
+                    <div class="col-lg-12 titleBreadcrumb">
+                        <h2>Mocha Dick</h2>
+
+                        <ul class="breadcrumb">
+                            <li><a href="index.html">Home</a>&nbsp;&nbsp;</li>
+                            <li><a href="books.html">Libros</a>&nbsp;&nbsp;</li>
+                            <li>Book Profile</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- // content -->
+                <div class="row show-grid contentProfile">
+                    <!-- // item  -->
+                    <div class="col-lg-8 profileItem">
+                        <div class="row">
+                            <div class="col-lg-2">
+
+                                <!-- // portada libro -->
+                                <div class="coverItem">
+                                    <img src="resources/books/mocha_dick.jpg" />
+                                    <!-- // - button reserved -->
+                                    <button type="button" class="btn btn-success">Reservar</button>
+                                    <!-- // - text available -->
+                                    <div class="available">
+                                        <span class="graphicAvailable stockGreen"></span>
+                                        <span class="graphicAvailable stockYellow"></span>
+                                        <span class="textAvailable">Disponible</span>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- informacion del libro -->
+                            <div class="col-lg-10 information">
+                                <h3 class="title">Mocha Dick</h3>
+                                <h5 class="authorName">by Francisco Ortega, Gonzalo Martínez</h5>
+
+                                <ul class="stars">
+                                    <li class="staticStar p10"></li>
+                                    <li class="staticStar p10"></li>
+                                    <li class="staticStar p10"></li>
+                                    <li class="staticStar p6"></li>
+                                    <li class="staticStar p0"></li>
+                                </ul>
+
+                                <span class="ratingValue">3.66</span>
+
+
+                                <div class="description">
+                                    <p>Al cumplir 15 años Caleb Hienam, hijo de un empresario ballenero, realiza su primer
+                                        viaje para aprender el oficio familiar. En el barco conoce a Aliro Le@raru,
+                                        uno de los marineros, descendiente del pueblo mapuche. Cuando el barco en el
+                                        que trabajan se tope con un bote ballenero cargado con los sobrevivientes del
+                                        ataque de una monstruosa ballena blanca, Caleb y Aliro conocerán la leyenda
+                                        mapuche de la Mocha y darán forma a un plan para evitar la caza indiscriminada de
+                                        ballenas en el Pacífico. Ayudados por Duncan Sheffield, un naturalista escocés, los
+                                        amigos abordarán una nueva nave Ballenera, el Peleg, donde conocerán a Joe, un
+                                        extraño marinero, y vivirán una peligrosa aventura.Por qué leer Mocha Dick: la
+                                        leyenda de la ballena blanca.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+
+                        <!-- // Author -->
+                        <div class="row show-grid author">
+                            <div class="col-lg-12">
+
+                            </div>
+                        </div>
+
+                        <!-- // author's book -->
+                        <div class="row show-grid booksAuthor">
+                            <div class="col-lg-12">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="row show-grid">
+            <div class="col-lg-12">
+                Footer
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.contentMain .titleBreadcrumb .breadcrumb {
+    float: right;
+    background-color: transparent;
+}
+
+h2 {
+    float: left;
+    margin: 0px;
+}
+
+.contentProfile {
+    height: auto;
+}
+
+.contentProfile .profileItem {
+    height: auto;
+}
+
+.contentProfile .profileItem .information {
+    height: 320px;
+}
+
+.contentProfile .coverItem .available {
+    margin-top: 25px;
+}
