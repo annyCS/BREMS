@@ -12,10 +12,16 @@
     border: 1px solid #AAA;
 }
 
-/* GENERICAS */
+/************************
+        GENERALES
+*************************/
 body{
     background-color: #faf9f9;
     color: #3b3a3b;
+}
+a:focus, a:hover {
+    /*color: #215E5D;*/
+    text-decoration: none;
 }
 .paddingNone{
     padding: 0px;
@@ -32,7 +38,7 @@ body{
 
 
 /************************
-        Header
+        HEADER
 *************************/
 header{
     height: auto;
@@ -42,6 +48,10 @@ header{
 .logo{
     height: 100px;
     margin-left: 41px;
+}
+.logo:hover {
+    opacity: 0.80;
+    cursor: pointer;
 }
 .logo .logoImg{
     margin-top: 20px;
@@ -68,17 +78,19 @@ header{
 *************************/
 .mainMenuNav{
     margin-top: 58px;
-    padding-left: 50px;
+    padding-left: 35px;
     text-transform: uppercase;
 }
 .mainMenuNav .nav li{
-
+    margin-right: 20px;
+    text-align: center;
+    width: auto;
 }
 .mainMenuNav .nav-pills li a, .mainMenuNav .nav-pills li.active a{
     font-size: 16px;
     border-radius: 0px;
     color: #3b3a3b;
-    padding: 5px 12px;
+    padding: 4px 6px;
 }
 .mainMenuNav .nav-pills li.active a, .mainMenuNav .nav-pills li.active a:hover,
 .mainMenuNav .nav-pills li.active a:focus, .mainMenuNav .nav-pills li a:hover, .mainMenuNav .nav-pills li a:focus{
@@ -113,7 +125,7 @@ header{
     font-size: 18px;
 }
 .mainOptionsUser .userDropdownMenu {
-    width: 340px;
+    width: 360px;
     background-color: transparent;
     padding-left: 25px;
 }
@@ -127,8 +139,11 @@ header{
     font-size: 19px;
     vertical-align: center;
 }
-.mainOptionsUser .userDropdownMenu button:hover, .mainOptionsUser .userDropdownMenu button:active:hover {
-    background-color: #d4d4d4;
+.mainOptionsUser .userDropdownMenu .btn-default:hover, .mainOptionsUser .userDropdownMenu .btn-default:active:hover,
+.mainOptionsUser .userDropdownMenu .btn-default:active, .mainOptionsUser .userDropdownMenu .btn-default:focus,
+.mainOptionsUser .userDropdownMenu .dropdown-toggle:hover, .mainOptionsUser .userDropdownMenu .dropdown-toggle:focus{
+    background-color: rgba(0, 0, 0, 0.38);
+    border: 0px;
 }
 .mainOptionsUser .userDropdownMenu .iconMenu .icon-alarm, .mainOptionsUser .userDropdownMenu .iconMenu .icon-book,
 .mainOptionsUser .userDropdownMenu .iconMenu .icon-alarm.active, .mainOptionsUser .userDropdownMenu .iconMenu .icon-book.active {
@@ -140,20 +155,21 @@ header{
     right: 35px;
     padding: 3px 5px;
     color: #faf9f9;
+    /*color: #3b3a3b;*/
     font-weight: normal;
 }
 .mainOptionsUser .userDropdownMenu .iconMenu .icon-alarm .badgeAlarm{
-    background-color: #CA1515;
+    background-color: rgba(247, 139, 29, 0.8);
 }
 .mainOptionsUser .userDropdownMenu .iconMenu .icon-book .badgeBook{
-    background-color: #9a5c28;
+    background-color: rgba(0, 193, 226, 0.8);
 }
 .mainOptionsUser .userDropdownMenu .btn-default, .mainOptionsUser .userDropdownMenu .btn-group{
     border: 0px;
     background-color: transparent;
 }
 .mainOptionsUser .userDropdownMenu .iconMenu .dropdown-toggle{
-    width: 203px;
+    width: 214px;
     text-align: right;
     color: #faf9f9;
 }
@@ -161,10 +177,16 @@ header{
     margin-top: -3px;
     margin-right: 6px;
 }
+.mainOptionsUser .userDropdownMenu .iconMenu .dropdown-toggle .caret {
+    margin-left: 5px;
+}
 .mainOptionsUser .userDropdownMenu .dropdown-menu{
     top: 97%;
     left: 44px;
     border-radius: 0px;
+}
+.mainOptionsUser .userDropdownMenu .dropdown-menu li a {
+    color: #3b3a3b;
 }
 .mainOptionsUser .userDropdownMenu .dropdown-menu .fa-user,
 .mainOptionsUser .userDropdownMenu .dropdown-menu .fa-power-off {
@@ -175,14 +197,31 @@ header{
 
 
 /************************
-        Content
+        CONTENT
 *************************/
 .contentMain {
     margin-left: 40px;
+    height: auto;
+    margin-bottom: 100px;
 }
 .contentMain .nav-tabs {
     font-size: 16px;
 }
+
+.contentMain .titleBreadcrumb {
+    margin-bottom: 10px;
+}
+.contentMain .breadcrumb {
+    margin-right: 26px;
+    float: right;
+    background-color: transparent;
+}
+.contentMain .titleBreadcrumb h2 {
+    float: left;
+    margin: 0px;
+    font-size: 32px;
+}
+
 .contentMain .listItems {
     margin-top: 10px;
     padding: 5px;
@@ -251,13 +290,60 @@ header{
 .contentMain .listItems .available {
     margin-top: 11px;
 }
-.contentMain .listItems .textAvailable {
+.contentMain .available .glyphicon {
+    font-size: 12px;
+}
+.contentMain .textAvailable {
     font-size: 12px;
     font-style: italic;
-    margin-left: 4px;
+    margin-left: 3px;
+}
+.contentMain .listItems .available.stockAvailable {
+    color: #148014;
+}
+.contentMain .listItems .available.stockUnavailable {
+    color: #A09F9F;
 }
 
 
+
+/************************
+        FOOTER
+*************************/
+footer {
+    background-color: #f5f5f5;
+}
+footer .footerLinks div{
+    padding-left: 80px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+footer h3 {
+    text-transform: uppercase;
+    padding-left: 40px;
+    font-size: 20px;
+}
+footer ul {
+    list-style-type: none;
+}
+footer ul li {
+    margin-bottom: 8px;
+}
+footer ul li a, footer ul li a:link{
+    color: #A09F9F;
+}
+footer ul li a:hover, footer ul li a:focus {
+    color: #9a5c28;
+    text-decoration: none;
+}
+.copyright {
+    padding: 20px;
+    background-color: #9a5c28;
+    color: #faf9f9;
+    font-size: 12px;
+    line-height: 7px;
+    word-spacing: 1px;
+}
 
 
 /*

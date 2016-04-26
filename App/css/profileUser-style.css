@@ -1,0 +1,71 @@
+
+/************************
+       PROFILE USER
+*************************/
+.contentProfile .navProfileUser {
+    margin-bottom: 30px;
+    margin-left: 19px;
+}
+.contentProfile .navProfileUser li a{
+
+}
+
+.contentProfile .userProfile .avatar {
+    width: 255px;
+    text-align: center;
+}
+.contentProfile .userProfile .avatar img {
+    width: 188px;
+    height: 250px;
+}
+
+.contentProfile .userProfile .table thead th,  .contentProfile .userProfile h4, .contentProfile .otherUserProfile h4{
+    font-size: 19px;
+    font-weight: normal;
+    /*color: #CACACA;*/
+    color: #215E5D;
+    border-bottom: 1px solid #215E5D;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+.contentProfile h4 a, .contentProfile .userProfile .table a {
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 7px;
+    color: #A09F9F;
+}
+.contentProfile h4 a:hover, .contentProfile .userProfile .table a:hover {
+    color: #7a7979;
+}
+.contentProfile h4 a span{
+    margin-right: 4px;
+}
+.contentProfile h4 span.glyphicon-heart{
+    font-size: 17px;
+}
+.contentProfile .userProfile .table tbody th {
+    font-size: 12px;
+    text-align: right;
+    width: 150px;
+    padding-top: 3px;
+    background-color: #f5f5f5;
+    color: #A09F9F;
+    border-bottom: 1px solid #ddd;
+    border-top: 0px;
+    font-weight: normal;
+}
+.contentProfile .userProfile .table tbody td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ddd;
+    border-top: 0px;
+}
+.contentProfile .otherUserProfile {
+    margin-top: 45px;
+}
+.contentProfile .otherUserProfile .biographic {
+    margin-left: 17px;
+}
+.contentProfile .otherUserProfile .favorites {
+    margin-left: 23px;
+}
