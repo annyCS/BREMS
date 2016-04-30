@@ -2,23 +2,21 @@
 /************************
        PROFILE USER
 *************************/
-.contentProfile .navProfileUser {
+.navProfileUser {
     margin-bottom: 30px;
     margin-left: 19px;
+    margin-right: 154px
 }
-.contentProfile .navProfileUser li a{
-
-}
-
 .contentProfile .userProfile .avatar {
     width: 255px;
     text-align: center;
+    margin-top: 10px;
 }
 .contentProfile .userProfile .avatar img {
     width: 188px;
     height: 250px;
 }
-
+/* Table of content */
 .contentProfile .userProfile .table thead th,  .contentProfile .userProfile h4, .contentProfile .otherUserProfile h4{
     font-size: 19px;
     font-weight: normal;
@@ -41,22 +39,23 @@
     margin-right: 4px;
 }
 .contentProfile h4 span.glyphicon-heart{
-    font-size: 17px;
+    font-size: 15px;
 }
 .contentProfile .userProfile .table tbody th {
-    font-size: 12px;
     text-align: right;
-    width: 150px;
-    padding-top: 3px;
-    background-color: #f5f5f5;
-    color: #A09F9F;
-    border-bottom: 1px solid #ddd;
+    width: 140px;
+    padding: 7px 10px;
+    background-color: rgba(191, 189, 102, 0.8);
+    color: #636234;
+    border-bottom: 1px solid #faf9f9;
     border-top: 0px;
     font-weight: normal;
 }
+.contentProfile .userProfile .table tbody th.lastRow {
+    border-color: #ddd;
+}
 .contentProfile .userProfile .table tbody td {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding: 7px 10px;
     border-bottom: 1px solid #ddd;
     border-top: 0px;
 }
@@ -68,4 +67,122 @@
 }
 .contentProfile .otherUserProfile .favorites {
     margin-left: 23px;
+}
+
+
+
+/************************
+       BOOK BORROW
+*************************/
+.Profile .item {
+    margin-bottom: 40px;
+}
+.Profile .coverItem {
+    text-align: left;
+    padding-left: 13px;
+}
+.Profile .coverItem a {
+    display: block;
+    margin-top: 10px;
+    padding-left: 3px;
+}
+.Profile .coverItem a span {
+    margin-right: 5px;
+}
+.Profile .coverItem img {
+    margin-top: 12px;
+}
+.Profile .detailsBorrow {
+    margin-left: -25px;
+}
+.Profile .detailsBorrow .table th {
+    width: 205px;
+    color: #215E5D;
+    font-weight: normal;
+    padding-left: 10px;
+}
+.Profile .detailsBorrow .table caption {
+    padding-left: 10px;
+    color: #A2A2A2;
+}
+.Profile .detailsBorrow .table caption span{
+    margin-left: 8px;
+    font-size: 16px;
+    color: #3b3a3b;
+}
+.contentBookBorrow .detailsBorrow .table .dateReturn i {
+    margin-left: 7px;
+}
+.contentBookBorrow .detailsBorrow .table .dateReturn .warning {
+    color: #E4B427;
+}
+.contentBookBorrow .detailsBorrow .table .dateReturn .danger {
+    color: #BE3633;
+}
+.contentBookBorrow .detailsBorrow .table .dateReturn span {
+    font-size: 12px;
+    margin-left: 3px;
+}
+.contentBookBorrow .detailsBorrow .table .buttonAplazar {
+    text-align: right;
+}
+.contentBookBorrow .detailsBorrow .table button {
+    border-radius: 0px;
+}
+.contentBookBorrow .detailsBorrow .table button:hover {
+    opacity: 0.8;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+
+
+/************************
+       BOOK BORROW
+*************************/
+.contentBookHistory .item {
+    margin-bottom: 60px;
+}
+.contentBookHistory .detailsBorrow .table ul {
+    margin-bottom: 0px;
+}
+.contentBookHistory .detailsBorrow .table .myRating ul {
+    cursor: pointer;
+}
+.contentBookHistory .detailsBorrow .table .myRating ul .staticStar:hover {
+    background-image: url("../img/star_full.png");
+}
+
+.Tooltip {
+    position: relative;
+    cursor: pointer;
+    width: 135px;
+}
+.Tooltip .tooltipText {
+    visibility: hidden;
+    width: 135px;
+    background-color: rgba(0, 0, 0, 0.80);
+    color: #faf9f9;
+    text-align: left;
+    border-radius: 0px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    top: 115%;
+    left: 25%;
+    margin-left: -60px;
+    font-size: 12px;
+}
+.Tooltip .tooltipText::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0, 0, 0, 0.80) transparent;
+}
+.Tooltip:hover .tooltipText {
+    visibility: visible;
 }

@@ -19,9 +19,16 @@ body{
     background-color: #faf9f9;
     color: #3b3a3b;
 }
+a {
+    color: #215E5D;
+}
 a:focus, a:hover {
-    /*color: #215E5D;*/
+    color: #215E5D;
+    opacity: 0.75;
     text-decoration: none;
+}
+a .moreInfo,  a:hover .moreInfo{
+    color: #337ab7;
 }
 .paddingNone{
     padding: 0px;
@@ -31,6 +38,9 @@ a:focus, a:hover {
 }
 .hide {
     display: none;
+}
+.visibilityHide {
+    visibility: hidden;
 }
 .container-fluid{
     margin-top: 28px;
@@ -155,14 +165,13 @@ header{
     right: 35px;
     padding: 3px 5px;
     color: #faf9f9;
-    /*color: #3b3a3b;*/
     font-weight: normal;
 }
 .mainOptionsUser .userDropdownMenu .iconMenu .icon-alarm .badgeAlarm{
-    background-color: rgba(247, 139, 29, 0.8);
+    background-color: #EA1313;
 }
 .mainOptionsUser .userDropdownMenu .iconMenu .icon-book .badgeBook{
-    background-color: rgba(0, 193, 226, 0.8);
+    background-color: rgba(177, 173, 39, 0.91);
 }
 .mainOptionsUser .userDropdownMenu .btn-default, .mainOptionsUser .userDropdownMenu .btn-group{
     border: 0px;
@@ -204,17 +213,37 @@ header{
     height: auto;
     margin-bottom: 100px;
 }
+/*Nav tabs*/
 .contentMain .nav-tabs {
     font-size: 16px;
 }
-
+.contentMain .nav-tabs li a:hover, .nav-tabs li a:focus:hover, .nav-tabs li a:active:hover{
+    border: 1px solid #ddd;
+    background-color: #FAF9F9;
+}
+.contentMain .nav-tabs li.active a,  .nav-tabs li.active a:focus, .nav-tabs li.active a:hover {
+    background-color: #faf9f9;
+    border-bottom-color: transparent;
+    opacity: 1;
+    color: #A2A2A2;
+}
+.contentMain .nav-tabs li a:focus, .nav-tabs li a:active{
+    background-color: transparent;
+}
+/*Breadcrumb*/
 .contentMain .titleBreadcrumb {
     margin-bottom: 10px;
 }
 .contentMain .breadcrumb {
-    margin-right: 26px;
+    margin-right: 21px;
     float: right;
     background-color: transparent;
+}
+.contentMain .breadcrumb li i {
+    margin-right: 5px;
+}
+.contentMain .breadcrumb .active {
+    color: #A2A2A2;
 }
 .contentMain .titleBreadcrumb h2 {
     float: left;
@@ -246,6 +275,7 @@ header{
     background-color: #409D69;
     border-color: transparent;
     -webkit-font-smoothing: antialiased;
+    border-radius: 0px;
 }
 .contentMain .coverItem .btn-success:hover {
     background-color: #3d9363;

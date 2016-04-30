@@ -10,7 +10,7 @@
 }
 .contentProfile .profileItem  .btn-success {
     width: 187px;
-    margin-top: 7px;
+    margin-top: 19px;
 }
 .contentProfile .profileItem .information {
     height: 320px;
@@ -18,7 +18,7 @@
 }
 
 .contentProfile .profileItem .available {
-    margin-top: 20px;
+    margin-top: 5px;
     color: #A09F9F;
 }
 .contentProfile .profileItem .available .graphicAvailable {
@@ -40,6 +40,7 @@
 }
 .contentProfile .profileItem .available .textAvailable {
     margin-left: 2px;
+    display: block;
 }
 
 .contentProfile .profileItem .coverItem img {

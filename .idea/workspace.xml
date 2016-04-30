@@ -2,19 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b468cf4-970f-4e3c-af2c-8c7da908b0b0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/css/profileBook-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/css/profileUser-style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/profile-user.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/css/common-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/resources/avatars/user_undefined.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/resources/avatars/user_undefined_40x40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/resources/avatars/user_undefined_42x42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/App/resources/avatars/user_undefined_48x48.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/img/stock_check_empty.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/img/stock_check_empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/img/stock_check_yellow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/img/stock_check_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/img/stock_green.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/img/stock_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/img/user_undefined_f.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/img/user_undefined_f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/img/user_undefined_f_40x40.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/img/user_undefined_m.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/img/user_undefined_m_40x40.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/resources/authors/francisco_ortega.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/resources/books/cuentos_chilenos_terror.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/resources/books/diario-ana-frank.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/resources/books/el_numero_kaifman.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/resources/books/logia.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/referencias/gestion-usuarios_modelo2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/referencias/modelo-perfilUsuario.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/referencias/referencia formulario para la web.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/referencias/usuarios_gestion_modelo.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Anny.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Anny.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/css/main-style.css" afterPath="$PROJECT_DIR$/App/css/main-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/css/profileBook-style.css" afterPath="$PROJECT_DIR$/App/css/profileBook-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/css/profileUser-style.css" afterPath="$PROJECT_DIR$/App/css/profileUser-style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/index.html" afterPath="$PROJECT_DIR$/App/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/App/profileBook.html" afterPath="$PROJECT_DIR$/App/profile-book.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/profile-book.html" afterPath="$PROJECT_DIR$/App/profile-book.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/profile-user.html" afterPath="$PROJECT_DIR$/App/profile-user.html" />
     </list>
     <ignored path="BREMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,12 +48,12 @@
     <window id="2">
       <content type="file-editors">
         <state>
-          <leaf>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file leaf-file-name="main-style.css" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/App/css/main-style.css">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="433">
-                    <caret line="332" column="19" selection-start-line="332" selection-start-column="19" selection-end-line="332" selection-end-column="19" />
+                  <state vertical-scroll-proportion="-7.109091">
+                    <caret line="305" column="50" selection-start-line="305" selection-start-column="50" selection-end-line="305" selection-end-column="50" />
                     <folding />
                   </state>
                 </provider>
@@ -47,8 +62,8 @@
             <file leaf-file-name="profileBook-style.css" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/App/css/profileBook-style.css">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="17">
-                    <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="26" />
+                  <state vertical-scroll-proportion="-27.0">
+                    <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
                     <folding />
                   </state>
                 </provider>
@@ -57,8 +72,8 @@
             <file leaf-file-name="profileUser-style.css" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/App/css/profileUser-style.css">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="153">
-                    <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                  <state vertical-scroll-proportion="0.7111111">
+                    <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
                     <folding />
                   </state>
                 </provider>
@@ -78,8 +93,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="114" column="42" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
+            <state vertical-scroll-proportion="-14.923077">
+              <caret line="135" column="65" selection-start-line="127" selection-start-column="28" selection-end-line="135" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -88,8 +103,8 @@
       <file leaf-file-name="profile-book.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/profile-book.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="123" column="37" selection-start-line="123" selection-start-column="37" selection-end-line="123" selection-end-column="37" />
+            <state vertical-scroll-proportion="-4.8076925">
+              <caret line="114" column="111" selection-start-line="114" selection-start-column="111" selection-end-line="114" selection-end-column="111" />
               <folding />
             </state>
           </provider>
@@ -98,8 +113,8 @@
       <file leaf-file-name="profile-user.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/profile-user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.37388194">
+              <caret line="543" column="49" selection-start-line="543" selection-start-column="49" selection-end-line="543" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -125,11 +140,12 @@
         <option value="$PROJECT_DIR$/App/css/common-style.css" />
         <option value="$PROJECT_DIR$/App/profileBook.html" />
         <option value="$PROJECT_DIR$/App/css/profile-book.css" />
-        <option value="$PROJECT_DIR$/App/profile-book.html" />
         <option value="$PROJECT_DIR$/App/index.html" />
+        <option value="$PROJECT_DIR$/App/profile-book.html" />
         <option value="$PROJECT_DIR$/App/css/main-style.css" />
-        <option value="$PROJECT_DIR$/App/css/profileUser-style.css" />
+        <option value="$PROJECT_DIR$/App/css/profileBook-style.css" />
         <option value="$PROJECT_DIR$/App/profile-user.html" />
+        <option value="$PROJECT_DIR$/App/css/profileUser-style.css" />
       </list>
     </option>
   </component>
@@ -169,8 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -223,6 +237,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,9 +258,7 @@
     <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
-      <config-file value="" />
-      <node-interpreter value="project" />
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
       <envs />
       <method />
     </configuration>
@@ -261,7 +275,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -272,12 +285,10 @@
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
-      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>C:/Program Files/nodejs/node.exe</node-interpreter>
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
       <pass-parent-env>true</pass-parent-env>
@@ -290,9 +301,7 @@
       <method />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -301,56 +310,56 @@
       <changelist id="0b468cf4-970f-4e3c-af2c-8c7da908b0b0" name="Default" comment="" />
       <created>1460158316732</created>
       <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
       <updated>1460158316732</updated>
-      <workItem from="1461051041166" duration="53124000" />
+      <workItem from="1461051041166" duration="53436000" />
     </task>
     <task id="LOCAL-00001" summary="add index&#10;// TODO - content &amp; footer">
       <created>1460194500486</created>
       <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1460194500486</updated>
     </task>
     <task id="LOCAL-00002" summary="add index&#10;// TODO - content &amp; footer">
       <created>1460243665436</created>
       <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1460243665436</updated>
     </task>
     <task id="LOCAL-00003" summary="new redistribution header with option menu">
       <created>1460332736979</created>
       <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
       <updated>1460332736979</updated>
     </task>
     <task id="LOCAL-00004" summary="new redistribution header with option menu">
       <created>1460400102459</created>
       <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1460400102459</updated>
     </task>
     <task id="LOCAL-00005" summary="littles changes in index.html">
       <created>1461274483801</created>
       <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1461274483801</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add page profile-boot, profile-user">
+      <created>1461659822492</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1461659822509</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53124000" />
+    <option name="totallyTimeSpent" value="53436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1845238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -403,7 +412,8 @@
     <MESSAGE value="add index&#10;// TODO - content &amp; footer" />
     <MESSAGE value="new redistribution header with option menu" />
     <MESSAGE value="littles changes in index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="littles changes in index.html" />
+    <MESSAGE value="add page profile-boot, profile-user" />
+    <option name="LAST_COMMIT_MESSAGE" value="add page profile-boot, profile-user" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -412,7 +422,55 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/App/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="42" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/profile-book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="123" column="37" selection-start-line="123" selection-start-column="37" selection-end-line="123" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/profile-user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/css/main-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="332" column="19" selection-start-line="332" selection-start-column="19" selection-end-line="332" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/css/profileBook-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/css/profileUser-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -420,7 +478,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/css/main-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
+        <state vertical-scroll-proportion="0.0">
           <caret line="65" column="20" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="20" />
           <folding />
         </state>
@@ -428,7 +486,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding />
         </state>
@@ -436,7 +494,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/css/main-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -444,7 +502,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding />
         </state>
@@ -452,7 +510,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/css/main-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -460,7 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding />
         </state>
@@ -468,7 +526,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/css/main-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -476,7 +534,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -485,55 +543,55 @@
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/css/main-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="332" column="19" selection-start-line="332" selection-start-column="19" selection-end-line="332" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/css/profileBook-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/css/profileUser-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/profile-book.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="123" column="37" selection-start-line="123" selection-start-column="37" selection-end-line="123" selection-end-column="37" />
+        <state vertical-scroll-proportion="-4.8076925">
+          <caret line="114" column="111" selection-start-line="114" selection-start-column="111" selection-end-line="114" selection-end-column="111" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="114" column="42" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
+        <state vertical-scroll-proportion="-14.923077">
+          <caret line="135" column="65" selection-start-line="127" selection-start-column="28" selection-end-line="135" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/css/profileBook-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.0">
+          <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/css/main-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.109091">
+          <caret line="305" column="50" selection-start-line="305" selection-start-column="50" selection-end-line="305" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/css/profileUser-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7111111">
+          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/profile-user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="201" column="0" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.37388194">
+          <caret line="543" column="49" selection-start-line="543" selection-start-column="49" selection-end-line="543" selection-end-column="49" />
           <folding />
         </state>
       </provider>
