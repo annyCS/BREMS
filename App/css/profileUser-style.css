@@ -156,7 +156,7 @@
 .Tooltip {
     position: relative;
     cursor: pointer;
-    width: 135px;
+    width: 140px;
 }
 .Tooltip .tooltipText {
     visibility: hidden;
@@ -172,6 +172,8 @@
     left: 25%;
     margin-left: -60px;
     font-size: 12px;
+    opacity: 0;
+    transition: opacity 1s;
 }
 .Tooltip .tooltipText::after {
     content: "";
@@ -185,4 +187,5 @@
 }
 .Tooltip:hover .tooltipText {
     visibility: visible;
+    opacity: 1;
 }
